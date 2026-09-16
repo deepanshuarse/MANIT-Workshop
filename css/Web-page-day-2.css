@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+p,
+h1 {
+  background-color: green;
+}
+
+/* .div3{
+  background-color: white;
+} */
+
+/* use space between in the justifycotent just to jive the even sapce btw left and right as well */
+
+div{
+  display: flex;
+  /* horizontely */
+  justify-content: space-around; 
+  /* vercical */
+  align-items: center;
+  background-color: rgb(255, 35, 35);
+  margin-bottom: 6px;
+  height: 500px;
+}
+.squar,
+.box {
+  background-color: lightcoral;
+  height: 100px;
+  border: solid 3px rgb(0, 0, 0);
+  width: 100px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.squar {
+  background-color: lightblue;
+}
+
