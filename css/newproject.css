@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 15px;
+}
+
+header {
+  display: flex;
+  height: 72px;
+  background-color: rgb(162, 162, 162);
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+/* iem = 1rem = 16px */
+
+p{
+  font-size: 1em;
+}
+
